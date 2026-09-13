@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         GitHub Feed Custom Filter
-// @namespace    github-feed-custom-filter
+// @name         gh-slim
+// @namespace    gh-slim
 // @version      2.0
 // @description  在 GitHub Feed 的 Filter 菜单下增加自定义开关
 // @author       You
@@ -15,7 +15,7 @@
 (function () {
   'use strict';
 
-  const KEY = 'gh_feed_filter';
+  const KEY = 'gh_slim';
 
   const TYPES = {
     pr: { title: 'PR contributions', desc: 'Hide "contributed to" cards', icon: '.octicon-git-pull-request' },
@@ -54,14 +54,14 @@
   }
 
   function inject() {
-    if (document.getElementById('gh-feed-filter')) return;
+    if (document.getElementById('gh-slim')) return;
     const nativeList = document.querySelector('.feed-filter-menu-body .SelectMenu-list');
     if (!nativeList) return;
 
     const section = document.createElement('div');
-    section.id = 'gh-feed-filter';
+    section.id = 'gh-slim';
     section.className = 'border-top pt-2 mt-2';
-    section.innerHTML = '<div class="tmp-px-3 mt-2"><h5>Custom filters</h5></div>';
+    section.innerHTML = '<div class="tmp-px-3 mt-2"><h5>gh-slim</h5></div>';
 
     Object.entries(TYPES).forEach(([key, { title, desc, icon: sel }]) => {
       const label = document.createElement('label');

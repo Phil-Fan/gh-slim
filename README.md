@@ -4,7 +4,7 @@ A userscript that adds custom filters to the GitHub Feed, letting you hide unwan
 
 ## Features
 
-- Add a **Custom filters** section to the native GitHub Feed `Filter` menu
+- Add a **gh-slim** section to the native GitHub Feed `Filter` menu
 - Toggle visibility of:
   - **PR contributions** — hide `contributed to` cards
   - **Starred repos** — hide `starred N repositories` cards
@@ -33,7 +33,7 @@ A userscript that adds custom filters to the GitHub Feed, letting you hide unwan
 
 1. Go to [https://github.com/feed](https://github.com/feed).
 2. Click the **Filter** button next to the Feed heading.
-3. In the **Custom filters** section, uncheck the card types you want to hide.
+3. In the **gh-slim** section, uncheck the card types you want to hide.
 
 ## Files
 
