@@ -1,20 +1,14 @@
-# gh-slim
-
 ![gh-slim hero](hero.png)
 
 A userscript that adds custom filters to the GitHub Feed, letting you hide unwanted card types like PR contributions, starred repos, trending repos, and recommendations.
 
 ## Features
 
-- Add a **gh-slim** section to the native GitHub Feed `Filter` menu
-- Toggle visibility of:
+Toggle visibility of:
   - **PR contributions** — hide `contributed to` cards
   - **Starred repos** — hide `starred N repositories` cards
   - **Trending repos** — hide `Trending repositories` cards
   - **Recommended repos** — hide `Recommended for you` cards
-- Filters apply immediately when toggled
-- Settings are persisted via Tampermonkey storage
-- Works with GitHub's dynamic Feed loading and Turbo navigation
 
 ## Installation
 
@@ -36,12 +30,6 @@ A userscript that adds custom filters to the GitHub Feed, letting you hide unwan
 1. Go to [https://github.com/feed](https://github.com/feed).
 2. Click the **Filter** button next to the Feed heading.
 3. In the **gh-slim** section, uncheck the card types you want to hide.
-
-## Files
-
-| File | Description |
-|------|-------------|
-| `github-feed-filter.user.js` | The userscript |
 
 ## License
 

@@ -3,13 +3,14 @@
 // @namespace    gh-slim
 // @version      2.0
 // @description  在 GitHub Feed 的 Filter 菜单下增加自定义开关
-// @author       You
+// @author       PhilFan
 // @match        https://github.com/feed
 // @match        https://github.com/
 // @match        https://github.com/dashboard*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-end
+// @license      MIT
 // ==/UserScript==
 
 (function () {
