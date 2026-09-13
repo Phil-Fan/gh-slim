@@ -1,5 +1,7 @@
 # gh-slim
 
+![gh-slim hero](hero.png)
+
 A userscript that adds custom filters to the GitHub Feed, letting you hide unwanted card types like PR contributions, starred repos, trending repos, and recommendations.
 
 ## Features
