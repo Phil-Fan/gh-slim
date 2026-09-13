@@ -12,18 +12,7 @@ Toggle visibility of:
 
 ## Installation
 
-1. Install a userscript manager:
-   - [Tampermonkey](https://www.tampermonkey.net/) (recommended)
-   - [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-   - [Violentmonkey](https://violentmonkey.github.io/)
-
-2. Open the raw script URL:
-
-   ```
-   https://github.com/Phil-Fan/gh-slim/raw/main/github-feed-filter.user.js
-   ```
-
-3. Your userscript manager should prompt you to install it.
+[Installation](https://greasyfork.org/zh-CN/scripts/595622-gh-slim)
 
 ## Usage
 
