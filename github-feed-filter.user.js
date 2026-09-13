@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         gh-slim
 // @namespace    gh-slim
-// @version      2.0
-// @description  在 GitHub Feed 的 Filter 菜单下增加自定义开关
+// @version      2.1
+// @description  在 GitHub Feed 的 Filter 菜单下增加自定义开关，隐藏PR记录
 // @author       PhilFan
 // @match        https://github.com/feed
 // @match        https://github.com/
